@@ -79,3 +79,58 @@ body {
     color: white;
     padding-top: 30px;
 }
+
+.body-card h5::after{
+    content: "On Sale!";
+    top: -459px;
+    right: -16px;
+    width: 80px;
+    height: 80px;
+    background-color: #0a0a0a;
+    position: absolute;
+    font-size: 16px;
+    color: white;
+    padding-top: 30px;
+}
+
+
+.cart{
+    padding: 20px;
+    margin: 18px;
+    background-color: #DFDAD4;
+    /* margin-right: 35px; */
+}
+
+.cart h4{
+    margin-bottom: 20px;
+}
+
+.news h5{
+    background-color: #499C80;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.footer-container{
+    background-color: #242424;
+}
+
+.footer-cart{
+    padding: 20px;
+    margin: 34px;
+    background-color: #242424;
+    color: white;
+}
+
+
+/* social section */
+.social{
+    background-color: #242424;
+}
+
+footer{
+    background-color: #2E2E2E;
+    color: white;
+}
